@@ -1,0 +1,42 @@
+.container{
+  display: grid;
+  width: 100%;
+  height: 1500px;
+  grid-template-columns: 80px 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0,3rem;
+}
+
+.content-1{
+  background-color: rgb(238, 238, 222);
+  grid-template-columns: 2fr ;
+  grid-template-rows:
+}
+
+.content-2{
+  background-color: rgb(232, 232, 214);
+  grid-template-columns: 1fr ;
+}
+.content-3{
+  background-image: url(img/fotooboi-tropicheskie-listya-k.jpg);
+  grid-template-columns: 1fr ;
+}
+
+.box {
+  margin-top: 25px; 
+}  
+
+button {
+  background-color:rgb(19, 61, 19);
+  border: none;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 15px;
+  padding-left: 47%;
+}
+
+button:active {
+  background-color:rgb(231, 182, 20)
+  }
